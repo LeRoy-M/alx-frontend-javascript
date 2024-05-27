@@ -3,7 +3,7 @@ export default function appendToEachArrayValue(array, appendString) {
   for (const item of array) {
     const value = item;
     array[idx] = appendString + value;
-    idx++;
+    idx += 1;
   }
 
   return array;
